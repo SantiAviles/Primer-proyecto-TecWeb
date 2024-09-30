@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #F7F7F7;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #F7F7F7;
+}
+
+thead th {
+    padding: 15px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+.header {
+    background-color: #FF5A5F;
+}
+
+.compatibilidad {
+    background-color: #008580;
+}
+
+.precio {
+    background-color: #333333;
+}
+
+.nivel-usuario {
+    background-color: #C18396;
+}
+
+.nombre {
+    background-color: #008580;
+}
+
+.interfaz {
+    background-color: #FF5A5F;
+}
+
+.funciones {
+    background-color: #C18396;
+}
+
+.plataformas {
+    background-color: #333333;
+}
+
+tbody td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.center {
+    text-align: center;
+}
