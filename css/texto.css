@@ -1,17 +1,17 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #F7F7F7; /* Blanco suave */
-    color: #333333; /* Gris oscuro */
+    background-color: #F7F7F7; 
+    color: #333333; 
     padding: 20px;
     line-height: 1.6;
 }
 
 h1, h2, h3 {
-    color: #FF5A5F; /* Rojo coral */
+    color: #FF5A5F;
 }
 
 strong {
-    color: #008580; /* Verde azulado */
+    color: #333333;
 }
 
 p {
@@ -19,28 +19,28 @@ p {
 }
 
 mark {
-    background-color: #FF5A5F; /* Rojo coral */
+    background-color: #FF5A5F;
     color: white;
     padding: 0 5px;
 }
 
 blockquote {
-    background-color: #F7F7F7; /* Blanco suave */
-    border-left: 5px solid #FF5A5F; /* Rojo coral */
+    background-color: #F7F7F7; 
+    border-left: 5px solid #FF5A5F; 
     padding: 10px 20px;
     margin: 20px 0;
 }
 
 pre {
-    background-color: #333333; /* Gris oscuro */
-    color: #F7F7F7; /* Blanco suave */
+    background-color: #333333; 
+    color: #F7F7F7;
     padding: 15px;
     overflow-x: auto;
 }
 
 footer {
-    background-color: #008580; /* Verde azulado */
-    color: #F7F7F7; /* Blanco suave */
+    background-color: #008580; 
+    color: #F7F7F7;
     padding: 20px;
     text-align: center;
     margin-top: 20px;
@@ -49,3 +49,21 @@ footer {
 footer p {
     margin: 10px 0;
 }
+
+.btn-volver {
+    display: inline-block;
+    background-color: #C18396; 
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-volver:hover {
+    background-color: #333333;
+}
+

@@ -60,3 +60,22 @@ tbody td {
 .center {
     text-align: center;
 }
+
+
+.btn-volver {
+    display: inline-block;
+    background-color: #C18396; 
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-volver:hover {
+    background-color: #333333; 
+}
+
